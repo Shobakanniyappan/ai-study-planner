@@ -6,7 +6,7 @@ from datetime import date
 st.set_page_config(page_title="AI Master Planner", layout="wide")
 
 st.title("📅 Detailed AI Study Planner")
-st.write("Enter subjects and number of units to generate a topic-wise schedule.")
+st.write("Enter subjects and number of units to generate a schedule.")
 
 if 'subjects' not in st.session_state:
     st.session_state.subjects = []
